@@ -1,5 +1,59 @@
-body {
+body { 
   width: 100%;
   height: 100%;
   margin: 0;
+}
+h1{
+  text-align: center;
+  margin: auto;
+}
+
+nav{
+  text-align: center;
+}
+nav a {
+ display: inline-block;
+ padding: 10px;
+ background-color: blueviolet;
+ color: white;
+ text-decoration: none;
+ margin-right: 20px
+}
+section{ 
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+section#featured-property img {
+  display: block;
+  margin: 0 auto; 
+  width: 100%; 
+}
+section#featured-property p {
+  width: 800px; 
+  margin: 20px auto; 
+  text-align: center; 
+}
+section#featured-property figcaption {
+  font-size: 14px; 
+  text-align: center; 
+}
+section#details {
+  overflow: hidden; 
+}
+section#details div {
+  float: left; /* Float divs left */
+  width: 25%; /* Occupy 25% of width */
+  background-color: #f8f8f8; /* Background color */
+  text-align: center; /* Center align text */
+}
+section#details h3 {
+  color: #333;
+}
+section#details p {
+  margin: 0;
+}
+a[target="_blank"] {
+  color: #007bff;
+  text-decoration: none;
 }
